@@ -1,0 +1,6 @@
+Sprite Sheet Ref Info
+06/24/2024.
+
+Sprite sheets were created using the free sprite generator located at the following URL:
+
+https://sanderfrenken.github.io/Universal-LPC-Spritesheet-Character-Generator/

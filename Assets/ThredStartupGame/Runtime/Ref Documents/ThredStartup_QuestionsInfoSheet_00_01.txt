@@ -1,0 +1,317 @@
+//	Format:
+//	QNum:_QuestionNumHere(00),Type:_TypeHere,
+//	P:_HasPromptHere(Y/N),_PromptInstructionsHere,
+//	Q:_QuestionTextHere,
+//	A:_NumOfAnswersHere(00),A1:_Answer01Here,A2:_Answer02Here, etc
+//
+//	Types = {NONE, TRUE_FALSE, INPUT_FIELD, SLIDER, MULTI_SELECT_SINGLE, MULTI_SELECT_MULTI }
+//
+//
+//	Template:
+//QNum:00,Type:_T,
+//P:_Y/N,_P,
+//Q:_Q,
+//A:00,A1:_,A2:_,A3:_,A4:_,
+
+
+QNum:01,Type:INPUT_FIELD,
+P:N,
+Q:"What is your name?",
+A:0,
+
+QNum:02,Type:MULTI_SELECT_SINGLE,
+P:N,
+Q:"With which gender do you identify?",
+A:4,A1:Man,A2:Woman,A3:Non-binary,A4:Other,
+
+QNum:03,Type:MULTI_SELECT_MULTI,
+P:N,
+Q:"With which racial/ethnic groups do you identify? (select all that apply)",
+A:07,A1:Hispanic or Latinx,A2:African American or Black,A3:Asian,A4:Native Hawaiian or other Pacific Islander,A5:Native American or Alaskan Native,A6:Caucasian or White,A7:Other,
+
+QNum:04,Type:INPUT_FIELD,
+P:N,
+Q:"How old are you?",
+A:0,
+
+QNum:05,Type:MULTI_SELECT_SINGLE,
+P:N,
+Q:"Are you associated with the NSF I-Corps program?",
+A:02,A1:Yes,A2:No,
+
+QNum:06,Type:INPUT_FIELD,
+P:N,
+Q:"Which NSF I-Corps program did you participate in",
+A:0,
+
+QNum:07,Type:INPUT_FIELD,
+P:N,
+Q:"When did you participate in the I-Corps program (year)?",
+A:0,
+
+QNum:08,Type:MULTI_SELECT_SINGLE,
+P:N,
+Q:"Are you currently an undergraduate or graduate student?",
+A:02,A1:Yes,A2:No,
+
+QNum:09,Type:MULTI_SELECT_SINGLE,
+P:N,
+Q:"What is your current academic standing?",
+A:6,A1:Freshman,A2:Sophomore,A3:Junior,A4:Senior,A5:Master’s student,A6:Ph.D. Student,
+
+QNum:10,Type:INPUT_FIELD,
+P:N,
+Q:"What is your current (or most recent) job title?",
+A:0,
+
+QNum:11,Type:INPUT_FIELD,
+P:N,
+Q:"What is your current (or most recent) organization/institution?",
+A:0,
+
+QNum:12,Type:INPUT_FIELD,
+P:N,
+Q:"What is the name of your startup or company?",
+A:0,
+
+QNum:13,Type:INPUT_FIELD,
+P:N,
+Q:"What is your role in the startup or company? (For example, CEO, Chief Engineer, etc.)",
+A:0,
+
+QNum:14,Type:MULTI_SELECT_SINGLE,
+P:N,
+Q:"At what stage of development is your product, service, or system?",
+A:6,A1:Existing in market,A2:Completed and ready for sale or delivery,A3:A prototype, procedure, or minimum viable product has been tested with customers,A4:A model or idea is being developed,A5:Still in idea stage,A6:Product development is paused at the moment,
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Likert Group (#15 - 33)
+//Prompt: "How much confidence do you have in your ability to…"
+//Responses: 1,2,3,4,5
+
+QNum:15,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Brainstorm (come up with) a new idea for a product or service",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:16,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Identify the need for a new product or service",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:17,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Design a product or service that will satisfy customer needs and wants",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:18,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Estimate customer demand for a new product or service",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:19,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Determine a competitive price for a new product or service",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:20,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Estimate the amount of startup funds and capital necessary to start my business",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:21,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Design an effective marketing/advertising campaign for a new product or service",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:22,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Get others to identify with and believe in my plans and vision for a new business",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:23,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Network i.e. make contact with and exchange information with others",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:24,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Clearly and concisely explain my business idea",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:25,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Supervise employees",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:26,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Recruit and hire employees",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:27,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Delegate tasks and responsibilities to employees",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:28,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Deal effectively with day-to-day problems and crises",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:29,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Inspire, encourage, and motivate my employees",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:30,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Train employees",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:31,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Organize and maintain financial records of my business",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:32,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Manage the financial assets of my business",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:33,Type:MULTI_SELECT_SINGLE,
+P:Y,"How much confidence do you have in your ability to…",
+Q:"Read and interpret financial statements",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Likert Group (#34 - 42)
+//Prompt: “Does the following represent how you never, rarely, sometimes, often, or always go about doing things for your start-up?”
+//Responses: Never, Rarely, Sometimes, Often, Always
+
+QNum:34,Type:MULTI_SELECT_SINGLE,
+P:Y,“Does the following represent how you never, rarely, sometimes, often, or always go about doing things for your start-up?”,
+Q:"We are confident of our ability to find workable solutions to new challenges by using our existing resources",
+A:5,A1:Never,A2:Rarely,A3:Sometimes,A4:Often,A5:Always,
+
+QNum:35,Type:MULTI_SELECT_SINGLE,
+P:Y,“Does the following represent how you never, rarely, sometimes, often, or always go about doing things for your start-up?”,
+Q:"We gladly take on a broader range of challenges than others with our resources would be able to",
+A:5,A1:Never,A2:Rarely,A3:Sometimes,A4:Often,A5:Always,
+
+QNum:36,Type:MULTI_SELECT_SINGLE,
+P:Y,“Does the following represent how you never, rarely, sometimes, often, or always go about doing things for your start-up?”,
+Q:"We use any existing resource that seems useful to responding to a new problem or opportunity",
+A:5,A1:Never,A2:Rarely,A3:Sometimes,A4:Often,A5:Always,
+
+QNum:37,Type:MULTI_SELECT_SINGLE,
+P:Y,“Does the following represent how you never, rarely, sometimes, often, or always go about doing things for your start-up?”,
+Q:"We deal with new challenges by applying a combination of our existing resources and other resources inexpensively available to us",
+A:5,A1:Never,A2:Rarely,A3:Sometimes,A4:Often,A5:Always,
+
+QNum:38,Type:MULTI_SELECT_SINGLE,
+P:Y,“Does the following represent how you never, rarely, sometimes, often, or always go about doing things for your start-up?”,
+Q:"When dealing with new problems or opportunities we take action by assuming that we will find a workable solution",
+A:5,A1:Never,A2:Rarely,A3:Sometimes,A4:Often,A5:Always,
+
+QNum:39,Type:MULTI_SELECT_SINGLE,
+P:Y,“Does the following represent how you never, rarely, sometimes, often, or always go about doing things for your start-up?”,
+Q:"By combining our existing resources, we take on a surprising variety of new challenges",
+A:5,A1:Never,A2:Rarely,A3:Sometimes,A4:Often,A5:Always,
+
+QNum:40,Type:MULTI_SELECT_SINGLE,
+P:Y,“Does the following represent how you never, rarely, sometimes, often, or always go about doing things for your start-up?”,
+Q:"When we face new challenges we put together workable solutions from our existing resources",
+A:5,A1:Never,A2:Rarely,A3:Sometimes,A4:Often,A5:Always,
+
+QNum:41,Type:MULTI_SELECT_SINGLE,
+P:Y,“Does the following represent how you never, rarely, sometimes, often, or always go about doing things for your start-up?”,
+Q:"We combine resources to accomplish new challenges that the resources weren’t originally intended to accomplish",
+A:5,A1:Never,A2:Rarely,A3:Sometimes,A4:Often,A5:Always,
+
+QNum:42,Type:MULTI_SELECT_SINGLE,
+P:Y,“Does the following represent how you never, rarely, sometimes, often, or always go about doing things for your start-up?”,
+Q:"To deal with new challenges we acquire resources at low or no cost and combine them with what we already have",
+A:5,A1:Never,A2:Rarely,A3:Sometimes,A4:Often,A5:Always,
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Likert Group (#43 - 49)
+//Prompt: “Please rate your agreement with the statements below in regards to your startup team.”
+//Responses: 1,2,3,4,5
+
+QNum:43,Type:MULTI_SELECT_SINGLE,
+P:Y,“Please rate your agreement with the statements below in regards to your startup team.”,
+Q:"If you make a mistake on this team, it is often held against you",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:44,Type:MULTI_SELECT_SINGLE,
+P:Y,“Please rate your agreement with the statements below in regards to your startup team.”,
+Q:"Members on this team are able to bring up problems and tough issues",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:45,Type:MULTI_SELECT_SINGLE,
+P:Y,“Please rate your agreement with the statements below in regards to your startup team.”,
+Q:"People on this team sometimes reject others for being different",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:46,Type:MULTI_SELECT_SINGLE,
+P:Y,“Please rate your agreement with the statements below in regards to your startup team.”,
+Q:"It is safe to take a risk on this team",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:47,Type:MULTI_SELECT_SINGLE,
+P:Y,“Please rate your agreement with the statements below in regards to your startup team.”,
+Q:"It is difficult to ask other members of this team for help",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:48,Type:MULTI_SELECT_SINGLE,
+P:Y,“Please rate your agreement with the statements below in regards to your startup team.”,
+Q:"No one on this team would deliberately act in a way that undermines my efforts",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:49,Type:MULTI_SELECT_SINGLE,
+P:Y,“Please rate your agreement with the statements below in regards to your startup team.”,
+Q:"Working with this team my unique skills and talents are valued and utilized",
+A:5,A1:1,A2:2,A3:3,A4:4,A5:5,
+
+QNum:50,Type:SLIDER,
+P:N,
+Q:"Are you generally a person who is fully prepared to take risks or do you try to avoid taking risks?",
+A:00,
+
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Likert Group (#51 - 55)
+//Prompt: “Please indicate your agreement with the following statements. Here, we define entrepreneurial ecosystems as the network of resources, facilities, and opportunities available and provided to startups within your resources.”
+//Responses: Strongly Disagree,Disagree,Neither Agree nor Disagree,Agree,Strongly Agree
+
+QNum:51,Type:MULTI_SELECT_SINGLE,
+P:Y,“Please indicate your agreement with the following statements. Here, we define entrepreneurial ecosystems as the network of resources, facilities, and opportunities available and provided to startups within your resources.”,
+Q:"I feel welcome in my entrepreneurial ecosystem.",
+A:5,A1:Strongly Disagree,A2:Disagree,A3:Neither Agree nor Disagree,A4:Agree,A5:Strongly Agree
+
+QNum:52,Type:MULTI_SELECT_SINGLE,
+P:Y,“Please indicate your agreement with the following statements. Here, we define entrepreneurial ecosystems as the network of resources, facilities, and opportunities available and provided to startups within your resources.”,
+Q:"I experience the overall climate of my entrepreneurial ecosystem as a positive one.",
+A:5,A1:Strongly Disagree,A2:Disagree,A3:Neither Agree nor Disagree,A4:Agree,A5:Strongly Agree
+
+QNum:53,Type:MULTI_SELECT_SINGLE,
+P:Y,“Please indicate your agreement with the following statements. Here, we define entrepreneurial ecosystems as the network of resources, facilities, and opportunities available and provided to startups within your resources.”,
+Q:"My entrepreneurial ecosystem is welcoming and inclusive for all members of the community (including those who may not share my identities).",
+A:5,A1:Strongly Disagree,A2:Disagree,A3:Neither Agree nor Disagree,A4:Agree,A5:Strongly Agree
+
+QNum:54,Type:MULTI_SELECT_SINGLE,
+P:Y,“Please indicate your agreement with the following statements. Here, we define entrepreneurial ecosystems as the network of resources, facilities, and opportunities available and provided to startups within your resources.”,
+Q:"Creating a safe, welcoming, and inclusive climate is a top priority of my entrepreneurial ecosystem.",
+A:5,A1:Strongly Disagree,A2:Disagree,A3:Neither Agree nor Disagree,A4:Agree,A5:Strongly Agree
+
+QNum:55,Type:MULTI_SELECT_SINGLE,
+P:Y,“Please indicate your agreement with the following statements. Here, we define entrepreneurial ecosystems as the network of resources, facilities, and opportunities available and provided to startups within your resources.”,
+Q:"My entrepreneurial ecosystem is open to feedback about its inclusiveness.",
+A:5,A1:Strongly Disagree,A2:Disagree,A3:Neither Agree nor Disagree,A4:Agree,A5:Strongly Agree
+
+QNum:56,Type:INPUT_FIELD,
+P:N,
+Q:"The researchers of this study are interested in collecting founder narratives of lived experiences during startup processes. If you be willing to participate in a brief interview with the researchers to describe your experiences in greater detail, please provide your email address below:",
+A:0,
+
+
