@@ -21,7 +21,7 @@ The project build target platform is: WebGL
 
 
 ## Name
-Threds Startup Game Project
+Threds: The Incubator
 
 
 ## Installation
